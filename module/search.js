@@ -1,9 +1,11 @@
-// 搜索
+// 搜索首页
 
 module.exports = (query, request) => {
+  const params = `keyword=${encodeURI(query.keyword)}&page=${query.page}&pagesize=${query.size}&context=`;
+
   return request(
     'GET',
-    `https://api.bilibili.com/x/web-interface/search/all/v2?keyword=123&page=1&pagesize=20&context=`,
+    `https://api.bilibili.com/x/web-interface/search/all/v2?${params}`,
     {},
     {
       crypto: 'm',
