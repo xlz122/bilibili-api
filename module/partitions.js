@@ -165,7 +165,7 @@ const partitionData = [
     children: [
       { rid: 11, name: '推荐' }, { rid: 185, name: '国产剧' }, { rid: 187, name: '海外剧' }
     ]
-  },
+  }
 ];
 
 // 分类
