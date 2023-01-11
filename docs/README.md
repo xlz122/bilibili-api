@@ -74,7 +74,7 @@
 
 **必选参数:** `size`: 条数
 
-**调用例子:** `/search?keyword=百妖谱&page=1&size=10&context=`
+**调用例子:** `/search?keyword=百妖谱&page=1&size=10`
 
 ### 搜索分类
 
